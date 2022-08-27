@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+.auth-box {
+	background: none;
+}
+
+.auth-box:before {
+	content: "";
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+20,ffffff+60,ffffff+100&0+0,0.88+20,1+60,1+100 */
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.88) 20%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.88) 20%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.88) 20%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 480px;
+}
+
+/*=========================================
+-- count
+=========================================*/
+.follow{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 95%;
+	margin: 0 auto 20px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 12px 0 rgba(204,204,204,0.80); 
+	-moz-box-shadow: 0 0 12px 0 rgba(204,204,204,0.80);
+	box-shadow: 0 0 12px rgba(204,204,204,0.80); 
+	padding: 25px 0 20px;
+}
+.btn-open{
+	background: url(https://2019.images.forbesjapan.media/public/user/img/wall/ar2.png) no-repeat 95% 32px/14px 10px #fff;
+}
+.btn-close{
+	background: url(https://2019.images.forbesjapan.media/public/user/img/wall/close.png) no-repeat 95% 16px/11px 11px #fff;
+}
+.follow > div{
+	width: 90%;
+	margin: 0 auto;
+}
+.fl-btn:hover{
+	cursor: pointer;
+}
+.follow .fl-list{
+	float: left;
+}
+.follow .fl-list li{
+	float: left;
+	border: #ccc 1px solid;
+	width: 26px;
+	text-align: center;
+	margin: 0 5px 0 0;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 28px;
+}
+.follow .fl-list li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+.follow .fl-list li.active{
+	background: #333;
+	border: #333 1px solid;
+	color: #fff;
+}
+.follow .fl-list li a:hover{
+	background: #f2f2f2;
+}
+.follow .fl-list li:last-child{
+	margin: 0;
+}
+.follow .fl-main{
+	overflow:hidden;
+	padding: 0 15px 0 15px;
+	/zoom:1;
+	position: relative;
+	top:-5px;
+}
+.follow .fl-main h4{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 130%;
+}
+.follow .fl-main p{
+	line-height: 140%;
+	margin: 0 0 20px;
+}
+.follow .btn-start {
+	display: block;
+	border-radius: 4px;
+	background:rgba(0,134,203,1);
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+.follow .btn-start:hover {
+	background:rgba(0,134,203,0.7);
+}
+.follow .btn-mb {
+	display: block;
+	width: 130px;
+	padding: 0 20px 0 0;
+	margin: 0 auto;
+	background:url(https://2019.images.forbesjapan.media/public/user/img/wall/ar.png) no-repeat right center;
+	text-align: center;
+	color: #0086cb;
+	font-size: 16px;
+	text-decoration: none;
+}
+.follow .fl-open{
+	display:none;
+	padding: 20px 0 0;
+	margin: 10px 0 0;
+	border-top: 2px #eee solid;
+}
+
+/*=========================================
+-- restrict
+=========================================*/
+.entry-wall{
+	position: relative;
+	bottom: 20px;
+	margin:0 auto;
+	width: 98%;
+	background: #efefef;
+	-webkit-box-shadow: 0 0 10px 0 rgba(128,128,128,0.70); 
+	-moz-box-shadow: 0 0 10px 0 rgba(128,128,128,0.70);
+	box-shadow: 0 0 10px rgba(128,128,128,0.70); 
+	border-radius: 6px;
+	border: solid 2px #fff;
+}
+.entry-wall > div{
+	width: 92%;
+	margin: 25px auto 10px;
+}
+.entry-wall h4{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 150%;
+	text-align: center;
+	margin: 0 auto 15px;
+}
+.entry-wall p{
+	text-align: left;
+	font-size: 13px;
+	line-height: 1.65;
+	width: 98%;
+	margin: 0 auto;
+}
+/*.entry-wall .btn-entry{
+	display: block;
+	border-radius: 4px;
+	background: rgba(0,134,203,1);
+	width: 80%;
+	height: 50px;
+	line-height: 53px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 12px auto 0;
+}
+.entry-wall .btn-entry:hover {
+	background:rgba(0,134,203,0.7);
+}*/
+.entry-wall .btn-mb {
+	display: inline-block;
+	padding: 0 20px 0 0;
+	background: url(https://2019.images.forbesjapan.media/public/user/img/wall/ar.png) no-repeat right center;
+	text-align: center;
+	color: #0086cb;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 18px auto 18px;
+}
+.entry-wall .btn-mb:hover {
+	opacity: 0.7;
+}

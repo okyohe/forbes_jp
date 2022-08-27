@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('font/icomoon.eot?nzi5dx');
+  src:  url('font/icomoon.eot?nzi5dx#iefix') format('embedded-opentype'),
+    url('font/icomoon.ttf?nzi5dx') format('truetype'),
+    url('font/icomoon.woff?nzi5dx') format('woff'),
+    url('font/icomoon.svg?nzi5dx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="iconm-"], [class*=" iconm-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconm-present:before {
+  content: "\e900";
+}
+.iconm-line:before {
+  content: "\e901";
+}
+.iconm-user:before {
+  content: "\e971";
+}
+.iconm-facebook:before {
+  content: "\ea90";
+}
+.iconm-twitter:before {
+  content: "\ea96";
+}
+.iconm-clip:before {
+  content: "\e9cd";
+}
+
+.header_sns_icons {
+  float: right;
+  text-align: left;
+  margin-top: 10px;
+}
+.header_sns_icons a {
+  display: inline-block;
+  vertical-align: middle;
+  width: 33px;
+  height: 33px;
+  background: #858585;
+  text-align: center;
+  line-height: 36.5px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  margin-left: 5px;
+}
+.header_sns_icons span {
+  color: #fff;
+  font-size: 22px;
+}
+/*.header_sns_icons .hsns_03 span {
+  font-size: 29px;
+}*/
+.header_sns_icons .hsns_01:hover {
+  background-color: #3B5998;
+}
+.header_sns_icons .hsns_02:hover {
+  background-color: #5ae628;
+}
+.header_sns_icons .hsns_03:hover {
+  background-color: #00aced;
+}
+.header_sns_icons .hsns_04:hover {
+  background-color: #333;
+}
+.header_sns_icons .hsns_05:hover {
+  background-color: #d74f40;
+}
+.share-btns {
+  margin-bottom: 10px;
+}
+#main-content .share-btns li {
+  float: left;
+  margin: 0 8px 0 0;
+  list-style: none;
+}
+.share-btns li a {
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  font-size: 22px;
+  height: 35px;
+  line-height: 37px;
+  text-align: center;
+  width: 35px;
+}
+#main-content .share-btns li a:hover {
+  text-decoration: none;
+}
+#main-content .share-btns li.share_line a {
+  color: #17AF03;
+  border-color: #17AF03;
+}
+#main-content .share-btns li.share_line a:hover {
+  background: #17AF03;
+  color: #fff;
+}
+#main-content .share-btns li.share_twi a {
+  color: #00aced;
+  border-color: #00aced;
+}
+#main-content .share-btns li.share_twi a:hover {
+  background: #00aced;
+  color: #fff;
+}
+#main-content .share-btns li.share_fb a {
+  color: #3B5998;
+  border-color: #3B5998;
+}
+#main-content .share-btns li.share_fb a:hover {
+  background: #3B5998;
+  color: #fff;
+}
+#main-content .share-btns li.archive_button a {
+  background: #fff none repeat scroll 0 0;
+  border-color: #888;
+  color: #888;
+  padding: 0;
+}
+#main-content .share-btns li.archive_button a:hover,
+#main-content .share-btns li.archive_button_done a:hover {
+  background: #888 none repeat scroll 0 0;
+  color: #fff;
+  padding: 0;
+  border-color: #888;
+}
+#main-content .share-btns li.archive_button_done {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #888;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  height: auto;
+  padding: 0;
+  vertical-align: top;
+}
+#main-content .share-btns li.archive_button_done a {
+  background: #888 none repeat scroll 0 0;
+  color: #fff;
+  padding: 0;
+  border-color: #888;
+}
+.tooltip_templates {
+  display: none;
+}
+#main-content .childs_right {
+  float: right;
+}
+#main-content .childs_right li:last-child {
+  margin-right:0;
+}

@@ -1,0 +1,30 @@
+
+function piResponse() {
+		piSetCookie('visitor_id886313', '319318810', 3650);
+			piSetCookie('visitor_id886313-hash', 'df2db2fdc9dcf710b8fba27fb68af80fffdba251ddd1612880a329c4d29825c0466e5c3305d3889eea969410cf0ce9cb80068050', 3650);
+		
+		if (document.location.protocol != "https:" || (document.location.protocol == "https:" && true)) {
+		var analytics_link = document.location.protocol + "//" + "info.linkties.com/analytics?";
+		pi.tracker.visitor_id='319318810';
+
+				pi.tracker.visitor_id_sign='df2db2fdc9dcf710b8fba27fb68af80fffdba251ddd1612880a329c4d29825c0466e5c3305d3889eea969410cf0ce9cb80068050';
+		
+				pi.tracker.campaign_id='4010';
+		
+		var variables = 'conly=true';
+		for (property in pi.tracker) {
+					variables += "&" + property + "=" + pi.tracker[property];
+				}
+		var headID = document.getElementsByTagName("head")[0];
+		piScriptObj[piScriptNum] = document.createElement('script');
+		piScriptObj[piScriptNum].type = 'text/javascript';
+		piScriptObj[piScriptNum].src = analytics_link + variables;
+		headID.appendChild(piScriptObj[piScriptNum]);
+		piScriptObj[piScriptNum].onload = function() { return; }
+	}
+	}
+piResponse();
+
+
+
+

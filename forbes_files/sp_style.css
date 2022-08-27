@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+img {
+  max-width: 100%; }
+
+.pc {
+  display: none; }
+
+.sp {
+  display: block; }
+
+.magazines-detail {
+  padding: 0 10px; }
+  .magazines-detail .main-magazine {
+    margin-bottom: 40px; }
+    .magazines-detail .main-magazine .main-magazine__ttl {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 3%;
+      padding-bottom: 1%;
+      line-height: 1.5; }
+    .magazines-detail .main-magazine .main-magazine__txt {
+      margin-bottom: 20px;
+      line-height: 1.5;
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center; }
+    .magazines-detail .main-magazine .main-magazine__img {
+      width: 65%;
+      margin: 0 auto 20px;
+      text-align: center; }
+    .main-magazine__link .main-magazine__link_ttl {
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 18px; }
+      .main-magazine__inner {
+        padding-top: 18px;
+      }
+    .main-magazine__link .main-magazine__btn,
+    .magazine__btn_wrap .main-magazine__btn {
+      margin-bottom: 15px;
+      display: block;
+      background-color: #ffb50f;
+      color: #fff;
+      border-radius: 4px;
+      padding: 4% 0;
+      width: 80%;
+      font-weight: 600;
+      text-decoration: none;
+      text-align: center;
+      margin: 0 auto 10px; }
+      .magazine__btn_wrap .main-magazine__btn {
+          padding: 16px 0;
+          color: #fff!important;
+          font-weight: 600;
+        }
+    .main-magazine__link ul {
+      width: 90%;
+      margin: auto; }
+      .main-magazine__link ul li {
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 10px;
+        width: auto; }
+        .main-magazine__link ul li a {
+          display: block;
+          color: #000;
+          -webkit-transition-duration: 0.5s;
+                  transition-duration: 0.5s;
+          text-decoration: none;
+          display: inline-block; }
+          .main-magazine__link ul li a:hover {
+            color: #009ee0; }
+          .main-magazine__link ul li a:before {
+            content: '›';
+            font-weight: bold;
+            display: inline-block;
+            font-size: 20px;
+            margin-right: 5px;
+            color: #ffb50f; }
+      /* ▼ 以下リニューアル*/
+      .main-magazine__link_new{
+        padding-top: 17px;
+      }
+      .main-magazine__link_new .main-magazine__btn {
+        width: 250px;
+        padding: 19px 0 18px;
+        font-size: 16px;
+        position: relative;
+      }
+      .main-magazine__link_new ul li{
+        font-size: 13px;
+        width: 250px;
+        margin: 0 auto;
+      }
+      .main-magazine__link_new ul li.digital a{
+        background-image: url(/public/user/images/magazines/side/ico_phone.svg);
+        background-size: 11px auto;
+        background-position: 32px center;
+        background-repeat: no-repeat;
+        padding-right: 5px;
+      }
+      .main-magazine__link_new ul li.backnumber a{
+        background-image: url(/public/user/images/magazines/side/ico_book.svg);
+        background-size: 20px auto;
+        background-position: 24px center;
+        background-repeat: no-repeat;
+      }
+      .main-magazine__link_new ul li.amazon a{
+        padding: 10px 0 9px;
+      }
+      .main-magazine__link_new ul li.amazon img{
+        width: 100px;
+        height: auto;
+      }
+      .main-magazine__link_new ul li + li{
+        margin-top: 5px;
+      }
+      .main-magazine__link_new ul li a{
+        display: block;
+        text-align: center;
+        border: solid 1px #e5e5e5;
+        color: #323232;
+        position: relative;
+        border-radius: 3px;
+        padding: 15px 0;
+      }
+      .main-magazine__link_new ul li a:hover{
+        background-color: #f2f2f2;
+      }
+      .main-magazine__link_new .main-magazine__btn:before,
+      .main-magazine__link_new ul li a:before{
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        bottom: 0;
+        right: 15px;
+        margin: auto;
+        width: 9px;
+        height: 9px;
+        border-top: 2px solid #ccc;
+        border-right: 2px solid #ccc;
+        transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+      }
+      .main-magazine__link_new .main-magazine__btn:hover:before,
+      .main-magazine__link_new ul li a:hover:before{
+        right: 7px;
+      }
+      .main-magazine__link_new .main-magazine__btn:before{
+        border-color: #fff;
+      }
+      /* ▲ 以上リニューアル*/
+  .magazines-detail .page-detail {
+    margin-bottom: 40px; }
+    .magazines-detail .page-detail .page-detail__ttl {
+      font-weight: bold;
+      font-size: 12px;
+      margin-bottom: 20px; }
+      .magazines-detail .page-detail .page-detail__ttl + .page-detail__txt {
+        margin-top: -20px; }
+      .magazines-detail .page-detail .page-detail__ttl .page-detail__ttl_copy {
+        font-size: 16px;
+font-weight: normal;
+display: inline-block;
+line-height: 1.5;
+margin-top: 8px; }
+    .magazines-detail .page-detail .page-detail__img {
+      position: relative;
+      padding-top: 65%;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto 20px; }
+    .magazines-detail .page-detail .page-detail__txt {
+      font-size: 14px;
+      margin-bottom: 20px;
+      line-height: 1.8; }
+
+      .magazines-detail .page-detail .page-detail__txt .font16 {
+        font-size: 16px;
+    }
+
+    .magazines-detail .page-detail .page-detail__txt strong {
+      font-weight: bold;
+  }
+
+      .page-detail__txt_arrow {
+        margin-bottom: 1em;
+        font-size: 15px;
+        position: relative;
+        padding-left: 1.35em;
+        position: relative;
+      }
+      .page-detail__txt_arrow:before{
+        width: 10px;
+        height: 8px;
+        background: #0d3f75;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -5px;
+      }
+      .page-detail__txt_arrow:after{
+        left: 10px;
+        box-sizing: border-box;
+        width: 5px;
+        height: 5px;
+        border: 4px solid transparent;
+        border-left: 5px solid #0d3f75;
+        content: "";
+        position: absolute;
+        top: 50%;
+        margin-top: -5px;
+      }
+      .magazines-detail .page-detail b {
+        font-weight: bold;
+      }
+      .magazines-detail .page-detail a {
+        color: #0d3f75;
+      }
+      .magazines .latest01 .right .cover {
+        padding: 0 15px;
+      }
+      .magazines .latest01 .wrapper ul li {
+    margin: 0 0% 2.5% 0;
+    padding: 0;
+    width: auto;
+    text-align: left;
+}
+
+
+/* 2019.8.23 menu css change 
+.sp-bottom-menu .btnlist {
+  background-color: #000000 !important;
+}
+
+.sp-bottom-menu .btnlist li:first-child a {
+  color: #fb0082;
+}
+
+.sp-bottom-menu .btnlist li:nth-child(2) a {
+  color: #d77003;
+}
+
+.sp-bottom-menu .btnlist li:nth-child(3) a {
+  color: #e8d503;
+}
+
+.sp-bottom-menu .btnlist li:nth-child(4) a {
+  color: #a5d500;
+}
+
+.sp-bottom-menu .btnlist li#menu-button a {
+  color: #1cbe3f;
+}
+*/
+
